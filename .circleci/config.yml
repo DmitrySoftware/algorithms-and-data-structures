@@ -18,7 +18,8 @@ jobs:
   build-and-test:
     docker:
       - image: cimg/openjdk:11.0
-    working_directory: java
+      
+    working_directory: algorithms-and-data-structures/java
 
     steps:
       # Use mvn clean and package as the standard maven build phase
